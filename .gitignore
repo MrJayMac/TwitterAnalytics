@@ -1,0 +1,28 @@
+# Kafka binaries and logs
+kafka_2.12-3.9.0/
+logs/
+zookeeper.out
+kafka.out
+
+# Temporary files
+*.log
+*.pid
+
+# Environment variables file (for sensitive data like API keys)
+.env
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
